@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.3">
+  <object class="ttk.Frame" id="top_level" named="True">
+    <property name="height">200</property>
+    <property name="width">200</property>
+    <layout manager="grid">
+      <property name="column">0</property>
+      <property name="row">0</property>
+    </layout>
+    <child>
+      <object class="ttk.Label" id="header_label" named="True">
+        <property name="font">{Arial} 20 {bold underline}</property>
+        <property name="justify">left</property>
+        <property name="relief">flat</property>
+        <property name="takefocus">false</property>
+        <property name="text" translatable="yes">Quadratic Roots Calculator</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Label" id="description_label" named="True">
+        <property name="font">{Arial} 16 {bold}</property>
+        <property name="text" translatable="yes">Featuring a calculator that finds the roots of any quadratic function.</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="padx">10</property>
+          <property name="pady">15</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Frame" id="frame3">
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="row">2</property>
+          <property name="sticky">w</property>
+        </layout>
+        <child>
+          <object class="ttk.Label" id="description_two" named="True">
+            <property name="compound">none</property>
+            <property name="font">{Arial} 12 {}</property>
+            <property name="text" translatable="yes">-The roots of a quadratic function are the functions x-intercepts or the 
+solution to the equation.....</property>
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="padx">20</property>
+              <property name="row">0</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label6">
+            <property name="class_">image</property>
+            <property name="image">stdform.png</property>
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="padx">20</property>
+              <property name="row">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label7">
+            <property name="text" translatable="yes">-Users can plug in values of a,b, and c, and the calculator will produce the roots
+(solutions).</property>
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="padx">20</property>
+              <property name="row">2</property>
+              <property name="sticky">w</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label8">
+            <property name="font">{Arial} 12 {}</property>
+            <property name="padding">5</property>
+            <property name="text" translatable="yes">By Jake Prichard</property>
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="ipadx">10</property>
+              <property name="row">3</property>
+              <property name="sticky">e</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
